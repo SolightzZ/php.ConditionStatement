@@ -18,7 +18,7 @@
         } else { 
             echo "ค่าในตัวแปร y น้อยกว่าค่าในตัวแปร y <by>";
         }
-        
+
         echo "--------------------------------------";
 
         echo "<br>";
@@ -31,6 +31,31 @@
         echo "ผลการเรียนคุณ" . $reult;
         echo "<br>";
         echo "----------------------------------------";
+        echo "<br>";
+        echo "<h2> คำสั่ง switch case </h2>";
+        echo "<br>";
+        echo "Cat";
+        $pet = 'Cat';
+        switch ($pet) {
+            case 'Cat':
+                echo '  คุณชอบนอนเหมือนแมว';
+                break;
+            case 'Dog':
+                echo '  คุณทำตัวเหมือนสุนัก';
+                break;
+            case 'Bird':
+                 echo ' คุณพูดมากเหมือนนก';
+                break;
+            default:
+                echo '  คุณเป็นมนุษย์ ';
+                break;
+        }
+
+        echo '<br>';
+        echo "----------------------------------------";
+        echo "<br>";
+        
+
     ?>
 </body>
 </html>

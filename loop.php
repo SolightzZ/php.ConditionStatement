@@ -51,12 +51,34 @@
         echo "<h2> * For ซ่อนกัน</h2>";
         echo "<br>";
         for ($i=1; $i<=5; $i++) {
-            for ($j= 1; $j<=10; $j++) {
+            for ($j= 1; $j<=$i; $j++) {
                 echo "*";
             }
             echo "<br>";
         } 
-        
+        echo "<br>";
+        $i = 1;
+        while ($i <= 80 )   {echo "-"; $i++;}
+        echo "<br>";
+
+
+        echo "<h2> Foreach Loop ปกติ</h2>";
+        echo "<br>";
+        $pet = array ("แมว", "สุนัก", "นกแก้ว", "ปลาทอง", "หมูเด้ง");
+        foreach ($pet as $value) {
+            echo " ฉันชอบ ". $value . "<br>";
+        }
+        echo "<br>";
+        $i = 1;
+        while ($i <= 80 )   {echo "-"; $i++;}
+        echo "<br>";
+
+        echo "<h2> Foreach Loop แบบ Key = value</h2>";
+        echo "<br>";
+        $food = array("หมวย"=> "ส้มตำ", "บูม"=>"หมูย่าง", "บีม"=>"ผัดกระเผา", "อาร์ต"=>"ข้าวมันไก่");
+        foreach ($food as $studentid => $value) {
+            echo " ชื่อฉัน $studentid  | ชอบกิน $value <br>";
+        }
         echo "<br>";
         $i = 1;
         while ($i <= 80 )   {echo "-"; $i++;}

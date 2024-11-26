@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+/* General Page Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+  color: #0091ff;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  color: #333;
+  font-size: 1.2em;
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Styled Box for Results */
+.result-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: inline-block;
+  padding: 20px;
+  width: 60%;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Highlight Key Numbers */
+.result-box span {
+  color: #4f9d00;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #666;
+  font-family: "Roboto", sans-serif;
+}
